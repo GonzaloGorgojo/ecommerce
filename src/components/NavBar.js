@@ -2,9 +2,10 @@ import React from 'react';
 const Menu = () => { 
     return (
         <ul>
-          <li>Campera</li>
-          <li>Buso</li>
-          <li>Pantalon</li>
+          <li>Notebook</li>
+          <li>PS 5</li>
+          <li>Xbox X</li>
+          <li>Pc Gamer</li>
         </ul>
     )
   }
