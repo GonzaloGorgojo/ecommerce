@@ -1,0 +1,45 @@
+.Logo img {
+    height: 25vh;
+    width: 15vw;
+}
+
+.contenedorSuperior {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0px 0px 10px #997d7d;
+    height: 25vh;
+}
+
+
+.barraNavegacion {
+    margin: 15vh 0vw 0vh 20vw;
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barraNavegacion a {
+    text-decoration: none;
+    border-right: 2px solid black;
+    color: black;
+    line-height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 8vh;
+    font-weight: bolder;
+    padding-right: 2vw;
+}
+
+.barraNavegacion a:hover {
+    color: rgb(197, 190, 180);
+}
+
+.saludo {
+    margin:10vh 0 0 45vw;
+}

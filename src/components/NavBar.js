@@ -1,12 +1,17 @@
 import React from 'react';
-const Menu = () => { 
+import Icon from './CartIcon';
+import './components.css'
+
+const Nav = () => { 
     return (
-        <ul>
-          <li>Notebook</li>
-          <li>PS 5</li>
-          <li>Xbox X</li>
-          <li>Pc Gamer</li>
+      <div className = "contenedorSuperior">
+        <Icon/>
+        <ul className = "barraNavegacion">
+          <a href="#">Productos</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Contacto</a>
         </ul>
+      </div>
     )
   }
-export default Menu;
+export default Nav;

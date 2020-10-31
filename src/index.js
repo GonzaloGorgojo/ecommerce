@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Menu from './components/NavBar';
+import Nav from './components/NavBar';
+import Saludo from './components/home';
 import './index.css';
 
 
+
 ReactDOM.render(
-  <Menu/>,
+  <div>
+  <Nav/>
+  <Saludo greeting="Bienvenido !"/>
+  </div>,
   document.getElementById('root')
 );
 
