@@ -1,8 +1,8 @@
 import React from 'react';
-import pic from './imgs/logo.jpg';
-import './components.css'
+import pic from '../imgs/logo.jpg';
+import '../css/components.css'
 
-const Icon = () => { 
+const CartIcon = () => { 
     return (
       <div className="Logo">
       <img src={pic} alt='Logo' ></img>
@@ -10,4 +10,4 @@ const Icon = () => {
     )
   }
   
-export default Icon;
+export default CartIcon;

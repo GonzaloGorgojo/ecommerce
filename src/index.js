@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Nav from './components/NavBar';
-import Saludo from './components/home';
-import './index.css';
+import App from './App'
 
 
 
 ReactDOM.render(
   <div>
-  <Nav/>
-  <Saludo greeting="Bienvenido !"/>
+  <App/>
   </div>,
   document.getElementById('root')
 );

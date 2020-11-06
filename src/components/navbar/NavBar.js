@@ -1,11 +1,11 @@
 import React from 'react';
-import Icon from './CartIcon';
-import './components.css'
+import CartIcon from '../carticon/CartIcon';
+import '../css/components.css'
 
 const Nav = () => { 
     return (
       <div className = "contenedorSuperior">
-        <Icon/>
+        <CartIcon/>
         <ul className = "barraNavegacion">
           <a href="#">Productos</a>
           <a href="#">Nosotros</a>
