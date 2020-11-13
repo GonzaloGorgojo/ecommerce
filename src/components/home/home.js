@@ -1,37 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../css/components.css';
 
+const {default: ItemCount} = require("../itemcount/itemcount");
 
-const Saludo = ({greeting}) => { 
-  return (
-    <h2 className="saludo">{greeting}</h2>
-  )
-}
 
-const ItemCount = () => {
-  const [contador, setContador] = useState(0);
 
-  const sumarNumero = () => {
-    setContador(contador + 1);
-  };
-  const restarNumero = () => {
-    setContador(contador -1);
+const Home = () => {
+
+  const agregarCarrito = (contador) => {
+    alert('Se agregaron ' + contador + ' unidades de su producto')
   }
 
 
   return <>
-    <div className = 'contenedor' >
-      <Saludo greeting="Bienvenido!"/>
-      <div className = 'tarjeta'>
-        <p className = 'productoUno'>Portamacetas Macrame</p>
-        <button className = 'botonSuma' onClick={() => { restarNumero(); } }>-</button>
-        <p className = 'numeroContador'>{contador}</p>
-        <button className = 'botonResta' onClick={() => { sumarNumero(); } }>+</button>
-      </div>
-    </div>
-  </>;
+  <div className='contenedor'>
+    <ItemCount initial={1} min={0} max ={10} onAdd={agregarCarrito}/>
+  </div>
+  </>
 }
 
+export default Home;
 
-export default ItemCount
 

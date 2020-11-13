@@ -51,19 +51,14 @@
     align-items: center;
     width: 100vw;
     height: 70vh;
+    margin-top: 10vh;
 }
 
-.saludo {
-    color: rgb(113, 189, 120);
-    width: 18vw;
-    font-size: 3rem;
-    margin: 2vh 0 2vh 0;
-}
 
 .tarjeta {
     border: 1px solid black;
     width: 20vw;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -101,4 +96,10 @@
     height: 5vh;
     width: 5vw;
     font-size: 1.8rem;
+}
+
+.botonAgregarCarrito {
+    height: 5vh;
+    width: 15vw;
+    font-size: 1rem;
 }
