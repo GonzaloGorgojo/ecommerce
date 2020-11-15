@@ -1,20 +1,17 @@
 import React from 'react';
+import ItemList from '../itemlist/itemlist'
 import '../css/components.css';
-
-const {default: ItemCount} = require("../itemcount/itemcount");
-
+import Item from '../item/item';
 
 
 const Home = () => {
 
-  const agregarCarrito = (contador) => {
-    alert('Se agregaron ' + contador + ' unidades de su producto')
-  }
-
-
   return <>
-  <div className='contenedor'>
-    <ItemCount initial={1} min={0} max ={10} onAdd={agregarCarrito}/>
+  <div className='contenedorHome'>
+    <div id="contenedorLista">
+      <ItemList/>
+    </div>
+      <Item/>
   </div>
   </>
 }

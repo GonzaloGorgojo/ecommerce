@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
 }
 .Logo img {
     height: 25vh;
@@ -24,7 +26,6 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
 .barraNavegacion a {
     text-decoration: none;
     border-right: 2px solid rgb(113, 189, 120);
@@ -39,48 +40,74 @@
     font-weight: bolder;
     padding-right: 2vw;
 }
-
 .barraNavegacion a:hover {
     color: rgb(197, 190, 180);
     border-right: 2px solid rgb(197, 190, 180);
 }
 
-.contenedor {
+.contenedorHome {
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+    border-bottom: 1px solid black;
+}
+#contenedorLista {
+    height: 75vh;
+    width: 35vw;
+    border-right: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 70vh;
-    margin-top: 10vh;
+    padding-top: 5vh;
+}
+.tituloLista {
+    font-size: 2.5rem;
+    color: rgb(84, 104, 50);
+}
+#listaProductos {
+    margin-top: 2vh;
+    font-size: 2rem;
 }
 
+#tarjetaProducto {
+    height: 35vh;
+    width: 21vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    box-shadow: 5px 5px 5px #997d7d;
+}
+#tarjetaProducto h3 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid rgb(73, 66, 66);
+    margin: 0vh 0 2vh 0;
+    color: rgb(84, 104, 50);
+}
+#tarjetaProducto p {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
 
-.tarjeta {
+.contador {
+    align-items: center;
     border: 1px solid black;
     width: 20vw;
-    height: 30vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.productoUno {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    font-weight: 900;
-    font-size: 1.6rem;
-    border-bottom: 1px solid black;
-    height: 5vh;
-    margin-top: 2vh;
-}
-
 .botonSuma{
     font-size: 1.8rem;
     height: 5vh;
     width: 5vw;
 }
-
 .numeroContador {
     display: flex;
     justify-content: center;
@@ -91,13 +118,11 @@
     margin-left: 1vw;
     margin-right: 1vw;
 }
-
 .botonResta {
     height: 5vh;
     width: 5vw;
     font-size: 1.8rem;
 }
-
 .botonAgregarCarrito {
     height: 5vh;
     width: 15vw;

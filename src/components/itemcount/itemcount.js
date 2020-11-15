@@ -17,8 +17,7 @@ export default function ItemCount({initial, min, max, onAdd}) {
     }
   
     return <>
-        <div className = 'tarjeta'>
-          <p className = 'productoUno'>Portamacetas Macrame</p>
+        <div className = 'contador'>
           <button className = 'botonSuma' onClick={() => { restarNumero(); } }>-</button>
           <p className = 'numeroContador'>{contador}</p>
           <button className = 'botonResta' onClick={() => { sumarNumero(); } }>+</button>
