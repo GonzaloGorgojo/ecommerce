@@ -78,7 +78,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-top: 5vh;
     box-shadow: 5px 5px 5px #997d7d;
 }
@@ -93,6 +93,49 @@
     font-weight: 900;
     margin-bottom: 2vh;
 }
+
+#contenedorItemDetail {
+    width: 40vw;
+    height: 75vh;
+    border: 1px solid black;
+}
+#tarjetaDetail {
+    height: 65vh;
+    width: 23vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    box-shadow: 5px 5px 5px #997d7d;
+}
+#tarjetaDetail h3 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid rgb(73, 66, 66);
+    margin-bottom: 2vh;
+    color: rgb(84, 104, 50);
+}
+#tarjetaDetail img {
+    height: 20vh;
+    width: 15vw;
+    margin-bottom: 2vh;
+}
+#tarjetaDetail p {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
+#tarjetaDetail .botonComprar {
+    height: 5vh;
+    width: 10vw;
+    font-size: 2rem;
+    margin-top: 2vh;
+}
+
+
 
 .contador {
     align-items: center;
@@ -128,3 +171,4 @@
     width: 15vw;
     font-size: 1rem;
 }
+

@@ -2,6 +2,7 @@ import React from 'react';
 import ItemList from '../itemlist/itemlist'
 import '../css/components.css';
 import Item from '../item/item';
+import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <ItemList/>
     </div>
       <Item/>
+      <ItemDetailContainer/>
   </div>
   </>
 }
