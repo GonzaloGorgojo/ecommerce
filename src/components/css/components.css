@@ -28,7 +28,6 @@
 }
 .barraNavegacion a {
     text-decoration: none;
-    border-right: 2px solid rgb(113, 189, 120);
     color: rgb(113, 189, 120);
     line-height: 10vh;
     width: 10vw;
@@ -42,7 +41,6 @@
 }
 .barraNavegacion a:hover {
     color: rgb(197, 190, 180);
-    border-right: 2px solid rgb(197, 190, 180);
 }
 
 .contenedorHome {
@@ -67,20 +65,21 @@
 #listaProductos {
     margin-top: 2vh;
     font-size: 2rem;
+    margin-left: 8vw;
 }
 
 #tarjetaProducto {
-    height: 35vh;
-    width: 21vw;
+    height: 20vh;
+    width: 15vw;
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 5vw;
-    margin-top: 5vh;
     box-shadow: 5px 5px 5px #997d7d;
+    margin-left: 15vw;
+    margin-top: 15vh;
 }
 #tarjetaProducto h3 {
     font-size: 2.5rem;
@@ -93,11 +92,19 @@
     font-weight: 900;
     margin-bottom: 2vh;
 }
+#tarjetaProducto a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+}
 
 #contenedorItemDetail {
-    width: 40vw;
+    width: 100vw;
     height: 75vh;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #tarjetaDetail {
     height: 65vh;
@@ -108,8 +115,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 5vw;
-    margin-top: 5vh;
     box-shadow: 5px 5px 5px #997d7d;
 }
 #tarjetaDetail h3 {

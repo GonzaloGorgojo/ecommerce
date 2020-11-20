@@ -19,7 +19,7 @@ export default function ItemList(){
     <div>
     <h3 className="tituloLista">Lista de Productos</h3>
     <ol id="listaProductos">
-        {productos.map(productos => <li key={productos.id}>{productos.nombre} - Precio: ${productos.precio}</li>)}
+        {productos.map(productos => <li key={productos.id}>{productos.nombre}</li>)}
      </ol>
      </div>
     )  
