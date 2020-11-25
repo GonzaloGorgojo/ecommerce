@@ -11,7 +11,7 @@ export default function ItemDetail(){
   }
 
 
- const [id, setId] = useState(2);
+ const [id, setId] = useState(1);
 
   const ComprarItems = ({id}) => {
     return <button className="botonComprar" > Comprar {id}</button>
