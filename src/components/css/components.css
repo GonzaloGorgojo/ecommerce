@@ -135,6 +135,11 @@
     font-weight: 900;
     margin-bottom: 2vh;
 }
+#tarjetaDetail input {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
 #tarjetaDetail .botonComprar {
     height: 5vh;
     width: 10vw;

@@ -11,6 +11,11 @@ export default function ItemDetail(){
   }
 
 
+  const prueba = (contador) => {
+    console.log(contador)
+  }
+
+  
  const [id, setId] = useState(1);
 
   const ComprarItems = ({id}) => {
@@ -30,14 +35,15 @@ export default function ItemDetail(){
       setItem(result[1])
     });
   }, []);
-
+ 
    return (
     <div id="tarjetaDetail">
       <h3>{item.nombre}</h3>
       <img src={gorra} alt='gorra'></img>
       <p>Valor: ${item.precio}</p>
       <ItemCount initial={1} min={0} max={10} onAdd={agregarCarrito} />
-      <ComprarItems id={id}></ComprarItems>
+      <ComprarItems id={prueba} ></ComprarItems>
+      
     </div>
   )
 }
