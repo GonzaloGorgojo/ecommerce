@@ -135,11 +135,6 @@
     font-weight: 900;
     margin-bottom: 2vh;
 }
-#tarjetaDetail input {
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 2vh;
-}
 #tarjetaDetail .botonComprar {
     height: 5vh;
     width: 10vw;
@@ -153,7 +148,7 @@
     align-items: center;
     border: 1px solid black;
     width: 20vw;
-    height: 15vh;
+    height: 16vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -172,6 +167,7 @@
     border: 1px solid black;
     margin-left: 1vw;
     margin-right: 1vw;
+    margin-top: 2vh;
 }
 .botonResta {
     height: 5vh;
@@ -181,6 +177,6 @@
 .botonAgregarCarrito {
     height: 5vh;
     width: 15vw;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 

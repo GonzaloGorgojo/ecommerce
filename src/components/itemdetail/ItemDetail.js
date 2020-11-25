@@ -7,21 +7,8 @@ import ItemCount from '../itemcount/itemcount'
 export default function ItemDetail(){
 
   const agregarCarrito = (contador) => {
-    alert('Se agregaron ' + contador + ' unidades de su producto')
+    alert('Usted comprara ' + contador + ' unidades de su producto')
   }
-
-
-  const prueba = (contador) => {
-    console.log(contador)
-  }
-
-  
- const [id, setId] = useState(1);
-
-  const ComprarItems = ({id}) => {
-    return <button className="botonComprar" > Comprar {id}</button>
-  }
-
  
 
   const [item, setItem] = useState([]);
@@ -41,9 +28,7 @@ export default function ItemDetail(){
       <h3>{item.nombre}</h3>
       <img src={gorra} alt='gorra'></img>
       <p>Valor: ${item.precio}</p>
-      <ItemCount initial={1} min={0} max={10} onAdd={agregarCarrito} />
-      <ComprarItems id={prueba} ></ComprarItems>
-      
+      <ItemCount initial={1} min={1} max={10} onAdd={agregarCarrito} />      
     </div>
   )
 }
