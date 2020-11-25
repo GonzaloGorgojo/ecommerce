@@ -1,7 +1,7 @@
 import React from 'react'
 import traerProductos from '../listaproductos/listaproductos'
 import { useState, useEffect} from 'react'
-import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
+
 
 
 export default function Item(){
@@ -22,7 +22,6 @@ export default function Item(){
     <div id="tarjetaProducto">
       <h3>{producto.nombre}</h3>
       <p>Valor: ${producto.precio}</p>
-      <a><NavLink to={'/detalleitem'}>Detalle</NavLink></a>
     </div>
     
   )

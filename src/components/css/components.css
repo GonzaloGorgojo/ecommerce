@@ -67,6 +67,13 @@
     font-size: 2rem;
     margin-left: 8vw;
 }
+#listaProductos a {
+    text-decoration: none;
+    color:black;
+}
+#listaProductos a:hover {
+    color: rgb(197, 190, 180);
+}
 
 #tarjetaProducto {
     height: 20vh;
@@ -91,11 +98,6 @@
     font-size: 2rem;
     font-weight: 900;
     margin-bottom: 2vh;
-}
-#tarjetaProducto a {
-    text-decoration: none;
-    color:black;
-    font-size: 1.5rem;
 }
 
 #contenedorItemDetail {

@@ -10,6 +10,15 @@ export default function ItemDetail(){
     alert('Se agregaron ' + contador + ' unidades de su producto')
   }
 
+
+ const [id, setId] = useState(2);
+
+  const ComprarItems = ({id}) => {
+    return <button className="botonComprar" > Comprar {id}</button>
+  }
+
+ 
+
   const [item, setItem] = useState([]);
 
   useEffect(() => {
@@ -28,7 +37,7 @@ export default function ItemDetail(){
       <img src={gorra} alt='gorra'></img>
       <p>Valor: ${item.precio}</p>
       <ItemCount initial={1} min={0} max={10} onAdd={agregarCarrito} />
-      <button className="botonComprar">Comprar</button>
+      <ComprarItems id={id}></ComprarItems>
     </div>
   )
 }
