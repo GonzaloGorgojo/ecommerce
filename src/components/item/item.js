@@ -1,27 +1,14 @@
 import React from 'react'
-import traerProductos from '../listaproductos/listaproductos'
-import { useState, useEffect} from 'react'
+import {Link} from 'react-router-dom' 
 
+export default function Item({nombre}){
 
-
-export default function Item(){
-
-  const [producto, setProducto] = useState([])
-
-  useEffect(() => {
-    traerProductos()
-    .then((result) => {
-      return JSON.parse(result);
-    })
-    .then((result) => {
-      setProducto(result[1])
-    });
-  }, []);
 
    return (
     <div id="tarjetaProducto">
-      <h3>{producto.nombre}</h3>
-      <p>Valor: ${producto.precio}</p>
+      <Link to ={`/detalleitem/${nombre.id}${nombre.nombre}/${nombre.precio}`} style={{ textDecoration: 'none' }}>
+      <h3>{nombre.nombre}</h3>
+      </Link>
     </div>
     
   )

@@ -10,10 +10,10 @@ const App = () => {
       <BrowserRouter>
         <Nav />
         <Switch>
-          <Route exact path="/">
+          <Route exact path='/'>
             <Home />
           </Route>
-          <Route exact path="/detalleitem">
+          <Route exact path='/detalleitem/:id:nombre/:precio'>
             <ItemDetailContainer />
           </Route>
         </Switch>

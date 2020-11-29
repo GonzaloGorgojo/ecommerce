@@ -10,38 +10,47 @@ const productos = `
 [{
     "id": 1,
     "nombre": "Remera",
-    "precio": 1500
+    "precio": 1500,
+    "img": "../imgs/remera.jpg"
   }, {
     "id": 2,
     "nombre": "Gorra",
-    "precio": 1200
+    "precio": 1200,
+    "img": "../imgs/gorra.jpg"
   }, {
     "id": 3,
     "nombre": "Buzo",
-    "precio": 2500
+    "precio": 2500,
+    "img": "../imgs/buzo.jpeg"
   }, {
     "id": 4,
     "nombre": "Cinto",
-    "precio": 1000
+    "precio": 1000,
+    "img": "../imgs/cinto.jpg"
   }, {
     "id": 5,
     "nombre": "Chomba",
-    "precio": 3000
+    "precio": 3000,
+    "img": "../imgs/chomba.jpg"
   }, {
     "id": 6,
     "nombre": "Campera",
-    "precio": 7000
+    "precio": 7000,
+    "img": "../imgs/campera.jpeg"
   }, {
     "id": 7,
-    "nombre": "zapatillas",
-    "precio": 6000
+    "nombre": "Zapatilla",
+    "precio": 6000,
+    "img": "../imgs/zapatilla.jpg"
   }, {
     "id": 8,
     "nombre": "Reloj",
-    "precio": 4500
+    "precio": 4500,
+    "img": "../imgs/reloj.jpg"
   }, {
     "id": 9,
     "nombre": "Bermuda",
-    "precio": 3800
+    "precio": 3800,
+    "img": "../imgs/bermuda.jpg"
   }]
  `

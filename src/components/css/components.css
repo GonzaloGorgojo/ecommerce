@@ -43,37 +43,21 @@
     color: rgb(197, 190, 180);
 }
 
-.contenedorHome {
+#contenedorHome {
     display: flex;
-    width: 100vw;
-    height: 75vh;
-    border-bottom: 1px solid black;
+    justify-content: center;
 }
 #contenedorLista {
-    height: 75vh;
-    width: 35vw;
-    border-right: 1px solid black;
+    margin-top: 5vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 55vw;
+    height: 75vh;
 }
-.tituloLista {
-    font-size: 2.5rem;
-    color: rgb(84, 104, 50);
-}
-#listaProductos {
-    margin-top: 2vh;
-    font-size: 2rem;
-    margin-left: 8vw;
-}
-#listaProductos a {
-    text-decoration: none;
-    color:black;
-}
-#listaProductos a:hover {
-    color: rgb(197, 190, 180);
-}
+
 
 #tarjetaProducto {
     height: 20vh;
@@ -85,19 +69,15 @@
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 5px #997d7d;
-    margin-left: 15vw;
-    margin-top: 15vh;
+    margin-bottom: 3vh;
+    
 }
 #tarjetaProducto h3 {
     font-size: 2.5rem;
     border-bottom: 2px solid rgb(73, 66, 66);
     margin: 0vh 0 2vh 0;
     color: rgb(84, 104, 50);
-}
-#tarjetaProducto p {
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 2vh;
+    
 }
 
 #contenedorItemDetail {
@@ -141,7 +121,6 @@
     font-size: 2rem;
     margin-top: 2vh;
 }
-
 
 
 .contador {
