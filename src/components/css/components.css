@@ -159,3 +159,18 @@
     font-size: 1.2rem;
 }
 
+#contenedorCarrito{
+    margin-left: 30vw;
+    margin-top: 10vh;
+    height: 15vh;
+    width: 30vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 5px #997d7d;
+    font-weight: 900;
+    font-size: 1.3rem;
+    justify-content: center;
+}
+

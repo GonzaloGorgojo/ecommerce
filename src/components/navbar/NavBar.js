@@ -9,7 +9,7 @@ const Nav = () => {
         <CartIcon/>
         <ul className = "barraNavegacion">
         <a><NavLink to={'/'}>Productos</NavLink></a>
-          <a href="#">Nosotros</a>
+          <a><NavLink to={'/carrito'}>Carrito</NavLink></a>
           <a href="#">Contacto</a>
         </ul>
       </div>
