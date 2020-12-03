@@ -26,7 +26,7 @@ export default function ItemCount({initial, min, max, onAdd }) {
           <button className = 'botonSuma' onClick={() => { restarNumero(); } }>-</button>
           <p className = 'numeroContador'>{contador}</p>
           <button className = 'botonResta' onClick={() => { sumarNumero(); } }>+</button>
-          <button className='botonAgregarCarrito' onClick={() => {controladorCarrito();cambiarNumero(contador)}}><Link to={'/carrito'} style={{ textDecoration: 'none', color: 'black' }}>Comprar {contador}</Link></button>
+          <Link to={'/carrito'} style={{ textDecoration: 'none', color: 'black' }}><button className='botonAgregarCarrito' onClick={() => {controladorCarrito();cambiarNumero(contador)}}>Comprar {contador}</button></Link>
         </div>
     </>;
   }
