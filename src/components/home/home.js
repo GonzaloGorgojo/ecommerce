@@ -1,7 +1,7 @@
 import React from "react";
 import ItemList from "../itemlist/itemlist";
 import "../css/components.css";
-import traerProductos from '../listaproductos/listaproductos'
+import traerProductos from '../../listaproductos/listaproductos'
 import { useState, useEffect} from 'react'
  
 const Home = () => {

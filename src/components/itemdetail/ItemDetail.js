@@ -1,5 +1,5 @@
 import React from 'react'
-import traerProductos from '../listaproductos/listaproductos'
+import traerProductos from '../../listaproductos/listaproductos'
 import { useState, useEffect} from 'react'
 import ItemCount from '../itemcount/itemcount'
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
