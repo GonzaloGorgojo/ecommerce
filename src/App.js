@@ -13,7 +13,7 @@ const App = () => {
       <BrowserRouter>
         <Nav />
         <Switch>
-          <Route exact path='/home'>
+          <Route exact path='/ecommerce/home'>
             <Home />
           </Route>
           <Route exact path='/detalleitem/:id:nombre/:precio'>
