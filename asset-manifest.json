@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.dbbcecdb.chunk.css",
-    "main.js": "/ecommerce/static/js/main.ccf6728d.chunk.js",
-    "main.js.map": "/ecommerce/static/js/main.ccf6728d.chunk.js.map",
-    "runtime-main.js": "/ecommerce/static/js/runtime-main.ee40b3dc.js",
-    "runtime-main.js.map": "/ecommerce/static/js/runtime-main.ee40b3dc.js.map",
-    "static/js/2.5198c53f.chunk.js": "/ecommerce/static/js/2.5198c53f.chunk.js",
-    "static/js/2.5198c53f.chunk.js.map": "/ecommerce/static/js/2.5198c53f.chunk.js.map",
-    "index.html": "/ecommerce/index.html",
-    "precache-manifest.f3d7028bdc3a3a6579cb08a4634ec029.js": "/ecommerce/precache-manifest.f3d7028bdc3a3a6579cb08a4634ec029.js",
-    "service-worker.js": "/ecommerce/service-worker.js",
-    "static/css/main.dbbcecdb.chunk.css.map": "/ecommerce/static/css/main.dbbcecdb.chunk.css.map",
-    "static/js/2.5198c53f.chunk.js.LICENSE.txt": "/ecommerce/static/js/2.5198c53f.chunk.js.LICENSE.txt"
+    "main.css": "//ecommerce/home/static/css/main.dbbcecdb.chunk.css",
+    "main.js": "//ecommerce/home/static/js/main.33f42653.chunk.js",
+    "main.js.map": "//ecommerce/home/static/js/main.33f42653.chunk.js.map",
+    "runtime-main.js": "//ecommerce/home/static/js/runtime-main.e59b16bb.js",
+    "runtime-main.js.map": "//ecommerce/home/static/js/runtime-main.e59b16bb.js.map",
+    "static/js/2.5198c53f.chunk.js": "//ecommerce/home/static/js/2.5198c53f.chunk.js",
+    "static/js/2.5198c53f.chunk.js.map": "//ecommerce/home/static/js/2.5198c53f.chunk.js.map",
+    "index.html": "//ecommerce/home/index.html",
+    "precache-manifest.1718c3479f1b4a7fb150fd51788517f8.js": "//ecommerce/home/precache-manifest.1718c3479f1b4a7fb150fd51788517f8.js",
+    "service-worker.js": "//ecommerce/home/service-worker.js",
+    "static/css/main.dbbcecdb.chunk.css.map": "//ecommerce/home/static/css/main.dbbcecdb.chunk.css.map",
+    "static/js/2.5198c53f.chunk.js.LICENSE.txt": "//ecommerce/home/static/js/2.5198c53f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee40b3dc.js",
+    "static/js/runtime-main.e59b16bb.js",
     "static/js/2.5198c53f.chunk.js",
     "static/css/main.dbbcecdb.chunk.css",
-    "static/js/main.ccf6728d.chunk.js"
+    "static/js/main.33f42653.chunk.js"
   ]
 }
