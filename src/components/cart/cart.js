@@ -14,7 +14,7 @@ export default function Cart() {
           <p>
             Usted No tiene Items En el Carrito
           </p>
-          <Link to ={`/`} style={{ textDecoration: 'none' }}>
+          <Link to ={`/home`} style={{ textDecoration: 'none' }}>
       <h4>Vuelva a La Lista de Productos</h4>
       </Link>
         </div>

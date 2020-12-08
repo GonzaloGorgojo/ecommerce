@@ -12,7 +12,7 @@ const Nav = () => {
       <div className = "contenedorSuperior">
         <CartIcon/>
         <ul className = "barraNavegacion">
-        <a><NavLink to={'/'}>Productos</NavLink></a>
+        <a><NavLink to={'/home'}>Productos</NavLink></a>
     <a><NavLink to={'/carrito'}>Carrito <p> {numero} </p></NavLink></a>
           <a href="#">Contacto</a>
         </ul>
