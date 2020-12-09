@@ -1,4 +1,38 @@
-import React, { createContext, useContext, useState } from 'react'
+import React, { createContext, useContext, useEffect, useState } from 'react'
+import { getFirestore } from '../firebase'
+
+
+
+export const ProductosDb = () => {
+
+    const [listado, setListado] = useState();
+
+    useEffect(() => {
+        const db = getFirestore();
+        const itemCollection = db.collection("productos");
+
+
+        itemCollection.get().then((response) => {
+          const aux =  response.docs.map(element => {
+                return element.data();
+            });
+            setListado(aux);
+        });
+    }, []);
+
+    return <>
+        <div>
+            {listado ?
+            listado.map(element => {
+                return <p>{element.nombre}</p>
+            }):'cargando'}
+        </div>
+        </>
+}
+
+
+
+
 
 
 const CartContext = createContext()
