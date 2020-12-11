@@ -33,14 +33,14 @@ const CartContext = createContext();
 const useCartContext = () => useContext(CartContext);
 
 export const CartProvider = ({ children }) => {
-  const [numero, setNumero] = useState(0);
+  const [numero, setNumero] = useState([0]);
   const [producto, setProducto] = useState([]);
 
   const cambiarNumero = (nuevoValor) => {
     setNumero(nuevoValor);
   };
-  const cambiarProducto = (nuevoValor) => {
-    setProducto(nuevoValor);
+  const cambiarProducto = (nuevoProducto) => {
+    setProducto(nuevoProducto);
   };
 
   return (
